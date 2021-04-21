@@ -12,7 +12,7 @@ const app = {};
 app.getQueens = (seasonNumber) => {
     // use Ajax to reach out to an API
     $.ajax({
-        url: `http://www.nokeynoshade.party/api/seasons/${seasonNumber}/queens`,
+        url: `https://www.nokeynoshade.party/api/seasons/${seasonNumber}/queens`,
         method: 'GET',
         dataType: 'json',
 
